@@ -1,12 +1,12 @@
 # Desafio lógica m01 b2b ifood t09
 
-Este desafio deve ser feito no hackerank, com acesso via este [link](www.hackerrank.com/desafio-de-logica-modulo-1-b2b-t09-dbe-ifood)
+Este desafio deve ser feito no hackerank, com acesso via este [link](https://www.hackerrank.com/desafio-de-logica-modulo-1-b2b-t09-dbe-ifood)
 
 ### Instrucoes
 
 - Crie um fork deste repositorio
 - Clone o repositorio para sua maquina
-- Acesse o desafio no [Hackerrank](www.hackerrank.com/desafio-de-logica-modulo-1-b2b-t09-dbe-ifood)
+- Acesse o desafio no [Hackerrank](https://www.hackerrank.com/desafio-de-logica-modulo-1-b2b-t09-dbe-ifood)
 - Faca o desafio
   - assim que estiver feliz com sua entrega na plataforma, copie o codigo para este repositorio
 - Assim que acabar, abra um PR por aqui
