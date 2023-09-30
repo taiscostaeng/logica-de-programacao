@@ -185,8 +185,7 @@ Quando precisa-se escolher apenas uma pessoa aleatoriamente dentro de um grupo, 
 <p>Para tal, ela precisa primeiro rever a posição atual e determinar qual é a maior distância que precisa ser andada para uma pessoa chegar na mesa do colega. Como o número de pessoas está ficando bem grande, ela precisa escrever um programa para isso. Considere que cada pessoa é um ponto no plano euclidiano e que a distância é sempre uma linha reta entre dois pontos.</p>
 
 <ul type = square>
-<li></li>Input Format: Neste problema a entranda é um único string que você deve tratar adequadamente para obter as informações que você precisa em variáveis separadas.
-A primeira linha deste string será o inteiro N que indica o número de funcionários da Cubos. Nas próximas N linhas você lerá dois números, as coordenadas X e Y do i-ésimo funcionário. </li>
+<li>Input Format: Neste problema a entranda é um único string que você deve tratar adequadamente para obter as informações que você precisa em variáveis separadas. A primeira linha deste string será o inteiro N que indica o número de funcionários da Cubos. Nas próximas N linhas você lerá dois números, as coordenadas X e Y do i-ésimo funcionário. </li>
 
 <li>Constraints: 0 ≤ N ≤ 10^3 -1000 ≤ X, Y ≤ 1000</li>
 
@@ -194,7 +193,7 @@ A primeira linha deste string será o inteiro N que indica o número de funcion�
 </ul>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h2> 13) Cofre Bugadão 🐷🤑</h2>
+<h2> 14) Cofre Bugadão 🐷🤑</h2>
 
 <p>Um novo cofre foi desenvolvido com a mais moderna tecnologia em segurança e criptografia. Na porta do cofre há um teclado com todas as letras do alfabeto em que a pessoa pode digitar a senha predefinida para abrir a porta.</p>
 <p>Durante alguns testes de rotina foi descoberto um bug na hora de validar a senha: O cofre ignora letras erradas durante a digitação da senha, desde que todas as letras da senha tenham sido digitadas na ordem correta.</p>
