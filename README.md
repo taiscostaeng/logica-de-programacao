@@ -59,11 +59,11 @@ Numa mesa de poker existe um valor mínimo de dinheiro que você precisa ter par
 <ul type = square>
 <li>Input Format: A entrada é costituida de 3 variáveis</li>
     
-    <ul type = circle>
+<ul type = circle>
 <li>min é o mínimo necessário para se poder jogar nesta mesa. É necessário ter o mínimo ou mais. </li>
 <li>max é o máximo permitido para se poder jogar nesta mesa. É necessário ter o máximo, ou menos.</li>
 <li>valores é um array que contém os valores com os quais o jogadores estão tentando sentar na mesa para jogar</li>
-    </ul>
+</ul>
 <li> Constraints: A lista tem de 1 a 1000 itens. </li>
 <li>Output Format: Imprima na tela a lista contendo apeas os valores que são autorizados a jogar nessa mesa, mantendo a mesma ordem da entrada. </li>
 </ul>
@@ -73,7 +73,7 @@ Numa mesa de poker existe um valor mínimo de dinheiro que você precisa ter par
 <p>O jogo de truco é muito popular pelo Brasil. Numa de suas versões, ele é jogado apenas com as cartas Q J K A 2 3. Elas tem essa ordem de "força" nesse jogo, sendo 3 a mais valiosa e Q a menos valiosa. Contudo, a cada partida é virada uma carta com a face pra cima na mesa. Esta carta serve para indicar que a próxima carta é a manilha, ou seja, a carta mais poderosa para essa partida.</p>
 
 <div>
-Fizemos uma tabela resumo para explicar essa mecânica:
+<p>Fizemos uma tabela resumo para explicar essa mecânica:</p>
 <img src = "https://github.com/taiscostaeng/logica-de-programacao/assets/138815703/a1ba607b-fb04-40a2-9c77-6f61b58b19f6">
 </div>
 
@@ -152,3 +152,62 @@ Quando precisa-se escolher apenas uma pessoa aleatoriamente dentro de um grupo, 
 
 <li> Output Format: Imprima na tela o nome do jogador que foi sorteado. </li>
 </ul>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2> 11) Taxímetro 🚖💰</h2>
+<p>Você é o programador responsável por programar o "taxímetro" do novo aplicativo de mobilidade que a empresa onde você trabalha está lançando. Nessa tarefa, dada uma distância percorrida e um tempo de viagem, você tem que fazer um programa que calcula o preço da viagem. Sabe-se que o app deve cobrar, inicialmente, 50 centavos por minuto de viagem e mais 70 centavos por cada quilômtro de viagem realizado.</p>
+
+<p>Caso a viagem tenha mais de 10km, cada km adicional (acima de 10) fica mais barato, passando a custar apenas 50 centavos por km. Caso a viagem dure mais de 20min, cada min adicional (acima de 20) fica mais barato, passando a custar apenas 30 cetavos por minuto. </p>
+
+<p>Seu trabalho é fazer a parte do programa que calcula, em centavos, o valor a ser pago pelo cliente (quanta responsabilidade, hein?). Lembre-se de arredondar para baixo o valor final a ser pago.</p>
+
+<ul type = square>
+<li>Input Format: A entrada é composta por duas variáveis: - min representa quantos minutos de duração a viagem teve. É sempre um número inteiro. - km representa quantos quilômetros foram percorridos na viagem. Pode ser um número com casas decimais.</li>
+<li>Output Format: Imprima na tela um único inteiro que representa o valor que deve ser pago pelo cliente, em centavos.</li>
+</ul>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2> 12) cAPS lOCK oN 👩🏽‍💻⌨</h2>
+
+<p> vOCÊ ESTÁ DESENVOLVENDO UM FORMULÁRIO DE CADASTRO E NOS PRIMEIROS TESTES DE USABILIDADE COM USUÁRIOS REAIS NOTOU ALGO PECULIAR: mUITOS USUÁRIOS PREENCHEM O FORMULÁRIO TODO COM A TECLA cAPS lOCK ATIVA, DEIXANDO TUDO BEM MENOS AGRADÁVEL DE LER. a SOLUÇÃO ESCOLHIDA NO dAILY DO DIA SEGUINTE FOI DE DETECTAR QUANDO O USUÁRIO ESTÁ ESCREVENDO DESSA FORMA E CORRIGIR AUTOMATICAMENTE. vOCÊ DEVE AGORA ESCREVER ESSE ALGORITMO. </p>
+
+<p>cONSIDERAMOS QUE UMA PALAVRA FOI ESCRITA COM cAPS lOCK SE OU TODAS AS SUAS LETRAS FOREM MAIÚSCULAS OU SE A PRIMEIRA FOR MINÚSCULA E TODAS AS OUTRAS MAIÚSCULAS. a CORREÇÃO NESSES CASOS É INVERTER TODAS AS LETRAS.</p>
+
+<ul type = square>
+<li>Input Format: a ENTRADA CONSISTE DE UMA ÚNICA PALAVRA CONTENDO APENAS LETRAS LATINAS (A-Z), MINÚSCULAS OU MAIÚSCULAS.</li>
+<li>Constraints: uMA PALAVRA POSSUI NO MÁXIMO 100 LETRAS.</li>
+<li>Output Format: iMPRIMA A PALAVRA CORRIGIDA, CASO O ALGORITMO TENHA DETECTADO QUE ELA FOI ESCRITA COM cAPS lOCK ATIVO.</li>
+</ul>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2> 13) Distância Máxima 💫🛸 </h2>
+<p>Thacila está preocupada com as condições de trabalho em nosso ambiente cúbico, em especial com o quanto as pessoas precisam andar dentro da sala. Também é comum na Cubos que uma pessoa tire dúvidas com outra indo até a mesa do colega, caminhando a distância. Ela está fazendo um trabalho de realocar as mesas da sala para que as pessoas precisem andar o mínimo possível.</p>
+<p>Para tal, ela precisa primeiro rever a posição atual e determinar qual é a maior distância que precisa ser andada para uma pessoa chegar na mesa do colega. Como o número de pessoas está ficando bem grande, ela precisa escrever um programa para isso. Considere que cada pessoa é um ponto no plano euclidiano e que a distância é sempre uma linha reta entre dois pontos.</p>
+
+<ul type = square>
+<li></li>Input Format: Neste problema a entranda é um único string que você deve tratar adequadamente para obter as informações que você precisa em variáveis separadas.
+A primeira linha deste string será o inteiro N que indica o número de funcionários da Cubos. Nas próximas N linhas você lerá dois números, as coordenadas X e Y do i-ésimo funcionário. </li>
+
+<li>Constraints: 0 ≤ N ≤ 10^3 -1000 ≤ X, Y ≤ 1000</li>
+
+<li>Output Format: Imprima um único número, a resposta para o problema.</li>
+</ul>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2> 13) Cofre Bugadão 🐷🤑</h2>
+
+<p>Um novo cofre foi desenvolvido com a mais moderna tecnologia em segurança e criptografia. Na porta do cofre há um teclado com todas as letras do alfabeto em que a pessoa pode digitar a senha predefinida para abrir a porta.</p>
+<p>Durante alguns testes de rotina foi descoberto um bug na hora de validar a senha: O cofre ignora letras erradas durante a digitação da senha, desde que todas as letras da senha tenham sido digitadas na ordem correta.</p>
+<p>Por exemplo, se a senha for “cubos” e for digitado “cuggbyos”, o cofre irá abrir.</p>
+
+<ul type = square>
+<li>Input Format: A entrada consistirá em duas linhas, na primeira linha estará a senha correta, de até S caracteres. Na segunda linha estará a palavra digitada pela pessoa, de até N caracteres.</li>
+<li>Constraints: S ≤ 10^3 N ≤ 10^5</li>
+<li>Output Format: Imprima “SIM” caso o cofre abra. Caso contrário, imprimir “NAO”.</li>
+</ul>
+
+
+
+
+
+
