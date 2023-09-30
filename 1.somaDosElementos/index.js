@@ -3,7 +3,7 @@ function solucao(lista) {
 
     let soma = 0
 
-    for (i = 0; i < lista.length; i++) {
+    for (let i = 0; i < lista.length; i++) {
         soma = soma + lista[i]
     }
 

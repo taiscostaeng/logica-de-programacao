@@ -10,7 +10,7 @@ function solucao(lista) {
     if (maiorDeIdade.length == 0) {
         console.log("CRESCA E APARECA")
     } else {
-        for (i = 1; i < maiorDeIdade.length; i++) {
+        for (let i = 1; i < maiorDeIdade.length; i++) {
             if (maiorDeIdade[i] <= jovem) {
                 jovem = maiorDeIdade[i]
             }

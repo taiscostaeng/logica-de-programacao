@@ -4,7 +4,7 @@ function solucao(texto) {
     let arrayDeTexto = (texto.trim()).split(" ")
     let novoArray = []
 
-    for (i = 0; i < arrayDeTexto.length; i++) {
+    for (let i = 0; i < arrayDeTexto.length; i++) {
         if (arrayDeTexto[i] !== '') {
             novoArray.push(arrayDeTexto[i])
         }

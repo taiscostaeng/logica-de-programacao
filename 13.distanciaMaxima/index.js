@@ -16,7 +16,7 @@ function processData(input) {
     let distanciaEntrePontos = 0
     let maiorDistancia = 0
 
-    for (i = n - 1; i >= 0; i--) {
+    for (let i = n - 1; i >= 0; i--) {
         let k = 0
         while (k >= 0 && k < i) {
             distanciaEntrePontos = ((((coordenadas[i].x - coordenadas[k].x) ** 2) + ((coordenadas[i].y - coordenadas[k].y) ** 2)) ** 0.5)
